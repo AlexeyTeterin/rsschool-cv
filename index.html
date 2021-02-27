@@ -3,24 +3,114 @@
 
 <head>
   <meta charset="UTF-8">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="./all.css" rel="stylesheet">
   <link rel="stylesheet" href="css.css">
   <title>Alexey Teterin CV</title>
 </head>
 
 <body>
-  <div class="main">
+  <header class="header">
+    <div class="contacts">
+      <h1>Алексей Тетерин</h1>
+      <h2 class="developer">Frontend разработчик</h2>
+      <p>
+        <a href="tel:+79222270136">
+          <i class="icon icon-phone"></i>+7 922 227 01 36
+        </a>
+      </p>
+      <p>
+        <a href="mailto:teterin.alexey@gmail.com">
+          <i class="icon icon-email"></i>teterin.alexey@gmail.com
+        </a>
+      </p>
+      <p>
+        <a href="https://t.me/alexey_teterin">
+          <i class="icon icon-telegram"></i>@alexey_teterin
+        </a>
+      </p>
+      <p>
+        <a href="https://github.com/AlexeyTeterin/">
+          <i class="icon icon-github"></i>AlexeyTeterin
+        </a>
+      </p>
+    </div>
     <div class="photo"></div>
-    <div class="contact-info">
-      <h1>Alexey Teterin</h1>
-      <p class="developer">Frontend Developer</p>
-      <p>Telegram: <a href="https://t.me/alexey_teterin">@alexey_teterin</a></p>
-      <p>LinkedIn: <a href="https://www.linkedin.com/in/alexeyteterin">AlexeyTeterin</a></p>
-    </div>
-    <div class="info">
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro sed, quia doloribus. Consequatur est facere molestiae debitis? Eos asperiores aliquid delectus, quidem nesciunt provident velit debitis dolore. Blanditiis, corporis, amet.</p>
+  </header>
+  <main>
+    <section class="about">
+      <p>Привет, это я.</p>
+    </section>
+    <section class="projects">
+      <h3>Проекты</h3>
+      <h4>Covid-19 Dashboard</h4>
+      <p><a href="https://alexeyteterin-covid-dashboard.netlify.app/"
+          target="_blank">alexeyteterin-covid-dashboard.netlify.app</a>
+        <a class="link-github"
+          href="https://github.com/AlexeyTeterin/covid-dashboard/pull/15"
+          target="_blank">code</a>
+      </p>
+      <p class="secondary">SPA для отслеживания статистики заболеваемости Covid-19 по
+        странам мира.</p>
+      <p class="secondary">Использованные технологии: JavaScript, REST API, Webpack,
+        Chart.js, Leaflet. Разработка в комаде с Alisa Pavlova.</p>
+      <h4>English for Kids</h4>
+      <p>
+        <a href="https://teterin-english-for-kids.netlify.app/"
+          target="_blank">teterin-english-for-kids.netlify.app</a>
+        <a class="link-github"
+          href="https://github.com/AlexeyTeterin/rsschool-JS2020Q3/pull/1"
+          target="_blank">code</a>
+      </p>
+      <p class="secondary">SPA-игра для изучения английских слов</p>
+      <p class="secondary">Использованные технологии: JavaScript, авторский адаптивный
+        дизайн, CSS-анимации.</p>
 
-    </div>
-  </div>
+      <h4>Virtual Keyboard</h4>
+      <p>
+        <a href="https://alexeyteterin-keyboard.netlify.app/keyboard/"
+          target="_blank">alexeyteterin-keyboard.netlify.app/keyboard</a>
+        <a href="https://github.com/AlexeyTeterin/rsschool-JS2020Q3/tree/keyboard"
+          target="_blank" class="link-github">code</a>
+      </p>
+      <p class="secondary">Виртульная клавиатура с голосовым вводом на чистом JS</p>
+      <p class="secondary">Использованные технологии: JavaScript, Web Speech API, SCSS</p>
+
+      <h4>Shelter</h4>
+      <p>
+        <a href="https://alexeyteterin-shelter.netlify.app/shelter/"
+          target="_blank">alexeyteterin-shelter.netlify.app/shelter</a>
+        <a href="https://github.com/AlexeyTeterin/rsschool-JS2020Q3/tree/shelter"
+          target="_blank" class="link-github">code</a>
+      </p>
+      <p class="secondary">Адаптивный многостраничный сайт с кастомной пагинацией</p>
+      <p class="secondary">Использованные технологии: HTML, SCSS, JavaScript</p>
+    </section>
+    <section class="skills">
+      <h3>Навыки</h3>
+      <p>JavaScript, TypeScript</p>
+      <p>React</p>
+      <p>REST API</p>
+      <p>Ant Design, Bootstrap, Chart.js, Leaflet</p>
+      <p>Webpack</p>
+      <p>Git</p>
+      <p>HTML</p>
+      <p>CSS, SASS</p>
+      <p>Figma, Photoshop</p>
+      <p>English B2</p>
+    </section>
+    <section class="education">
+      <h3>Образование</h3>
+      <h4>JavaScript and Frontend Development</h4>
+      <p>The Rolling Scopes School</p>
+      <p>2020-2021</p>
+      <p><a href="https://app.rs.school/certificate/090beg79">Сертификат</a>
+      </p>
+      <h4>Государственное и муниципальное управление</h4>
+      <p>Уральская Академия Государственной службы</p>
+      <p>2003-2008</p>
+    </section>
+  </main>
 </body>
 
 </html>
